@@ -1,0 +1,40 @@
+Ketentuan Final Project:
+
+1. Wajib memiliki sekurang-kurangnya 6 menu ini:
+    - About / Tentang
+    - Experience / Riwayat Pekerjaan 
+    - Education / Riwayat Pendidikan
+    - Skills / Keterampilan 
+    - Interests / Minat / Hobi  
+    - Award / Penghargaan / Sertifikat      
+
+2. Bebas pilih cara penyajiannya:
+    a. Single Page 
+        ==> 
+        - index.html
+
+    b. Multiple Page
+        ==> 
+        - index.html    ==> landing page / home page / beranda
+        - about.html
+        - experience.html
+        - education.html
+        - skills.html
+        - interests.html
+        - award.html
+
+3. Yang dikumpulkannya adalah: 
+    a. Source Code / Kode program (html, css, js)
+    b. Link / tautan deployment Netlify (https://....netlify.app) ==> nama subdomain / website ==> diupayakan ada nama depan Rekan-rekan..
+    c. Link / tautan Github
+
+    ==> dibungkus di dalam arsip berformat / berekstensi *.zip / *.rar dengan format: Nama_Final_Project.zip/rar
+
+4. Batas waktu pengumpulan / deadline   ==> Jumat, 13 Oktober 2023 pukul 23.59 WIB 
+
+
+Ketentuan Tambahan: 
+- Tidak boleh menggunakan template 
+- Tidak boleh menggunakan css framework / css utility class (tidak boleh menggunakan bootstrap / tailwind / material ui, dst..)
+- Boleh menggunakan library / plugin javascript tambahan 
+- Boleh menggunakan library font icon css

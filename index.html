@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rina Sismita</title>
+
+    <style>
+        * {
+            /* box-sizing: border-box; */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-image: linear-gradient(to bottom right, rgb(252, 172, 234), rgb(172, 171, 250));
+            position: fixed;
+            width: 100%;
+
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            padding: 0.5em 1em;
+        }
+        nav ul li:hover {
+            background-color: rgb(253, 130, 177);
+            color: black(8, 8, 8);
+            transform: scale(1.1);
+        }
+
+        nav ul li a {
+            text-decoration: none;
+        }
+
+        #logo-wrapper img {
+            width: 100px;
+        }
+
+        .content {
+            min-height: 100vh;
+            padding: 0.5em 2em;
+            padding-top: 7em;
+        }
+
+        .card {
+            background-color: rgb(255, 255, 255, .2);
+            padding: 1em;
+            border-radius: .5em;
+        }
+
+        #content-1 {
+            background: rgb(236, 155, 140);
+            /* background-image: url("https://th.bing.com/th/id/R.72d3986a53c744e4fe72bc0cbdcfb7a3?rik=n0lfpaV0JwXPDg&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f13%2fElegant-Pattern-PNG-Transparent-Image.png&ehk=J9WUCdtnP9Oa14s0syy34GFeKsoJjY9g1RZGlnFiWlc%3d&risl=&pid=ImgRaw&r=0"); */
+        }
+        #content-2 {
+            background: rgb(159, 146, 245);
+        }
+        #content-3 {
+            background: pink;
+        }
+        #content-4 {
+            background: rgb(179, 247, 179);
+        }
+        #content-5 {
+            background: rgb(253, 220, 157);
+        }
+        #content-6 {
+            background: rgb(255, 207, 198);
+        }
+
+        footer {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            font-size: 10px;
+            padding: 1em;
+        }
+
+        #btn-contact-me {
+            background-color: blue;
+            color: #fff;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 0.3em;
+        }
+
+        .section-wrapper {
+            display: flex;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <div id="logo-wrapper">
+            <img src="rina.png" alt="Logo" />
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#content-1">Profile</a></li>
+                <li><a href="#content-2">Experience</a></li>
+                <li><a href="#content-3">Education</a></li>
+                <li><a href="#content-4">Skills</a></li>
+                <li><a href="#content-5">Interest</a></li>
+                <li><a href="#content-6">Award</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="section-wrapper">
+            <section id="content-1" class="content">
+                <h3>Selamat datang di Website Rina Sismita. Melayani pembuatan aplikasi berbasis web dan desain website.  <span id="typed-element"></span></h3>
+    
+                <div class="card">
+                    <h1>Profile</h1>
+    
+    
+                    <p>Lulusan universitas pembangunan jaya jurusan ilmu komunikasi tahun 2023 dengan predikat cumlaude</p>
+                    <p>Selain bergelut pada bidang komunikasi publik saya juga memiliki ketertarikan tinggi pada bidang programing</p>
+                    <p>Mempelajari teknologi khususnya bidang pemrograman membuat saya semakin tertarik untuk belajar karena programing adalah ilmu yang selalu update dan hampir tidak ada kesempatan untuk berhenti belajar karena luasnya ilmu yang dimiliki</p>
+    
+                </div>
+    
+            </section>
+    
+            <section id="content-2" class="content">
+                <div class="card">
+                    <h1>Experience</h1>
+                    <p>Saya mengikuti pelatihan pemrograman web yang diselenggarakan oleh program prakerja.</p>
+                    <p>Berkat pelatihan tersebut saya mampu membuat situs web pribadi untuk saya pribadi</p>
+                    <p>Selama masa kuliah saya sering mengikuti seminar tentang pemrograman dan dari situlah ketertarikan saya akan dunia pemrograman semakin kuat terlebih berada pada lingkungan yang mendukung keingin tahuan saya akan hal tersebut tersalurkan</p>
+                    <p>Saya mulai mempelajari bahasa pemrograman melalui youtube dan menghasilkan beberapa aplikasi yang saya rangkum pada situs rinacode.github.io</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="section-wrapper">
+            <section id="content-3" class="content">
+                <div class="card">
+                    <h1>Education</h1>
+                    <p>Saya berhasil menyelesaikan studi S1 pada bidang ilmu komnunikasi dengan tepat waktu dan berhasil medapatkan kelulusan dengan predikat cumlaude</p>
+                    <p>Selama masa kuliah saya aktif mengikuti organisasi HIMAkom UPJ sebagai koordinator program bleded learning dan menjadi MC pada acara-acara kampus</p>
+                    <p>menadapatkan pelatihan Speak to change, Mission success, dan leading with care selama bekerja di Samsung Electronic Indonesia dan menadapatkan sertifikat kelulusan</p>
+                </div>
+            </section>
+            <section id="content-4" class="content">
+                <div class="card">
+                    <h1>Skills</h1>
+                    <p>Mampu membuat aplikasi berbasis web dari tahap perancangan hingga tahap pengujian aplikasi dengan menyesuaikan kebutuhan bisnis yang diinginkan dan dapat membantu proses bisnis perusahan menjadi lebih efekti dan efisien</p>
+                    <p>Melakukan pengujian aplikasi dengan manual testing ataupun dengan automation tesing dengan sertifikat keahlian QA dari program pelatihan alterra accademy</p>
+                    <p>Menjadi pembicara pada acara ataupun pembawa materi dengan pengalaman lebih dari 7 tahun sebagai trainer Samsung Electronic Indonesia</p>
+                    <p>Melakukan pembuatan aplikasi berbasis mobile dengan flutter, mulai dari analisis kebutuhan, pembuaran aplikasi hingga pengujian pada aplikasi sebelum aplikasi tersebut dapat dipakai untuk keperluan</p>
+                </div>
+            </section>
+        </div>
+        
+        <div class="section-wrapper">
+            <section id="content-5" class="content">
+                <div class="card">
+                    <h1>Interest</h1>
+                    <p>Saya memiliki ketertarikan pada dunia pemrograman, membuat aplikasi dan melakukan pengujian pada aplikasi</p>
+                    <p>Menyukai menjadi pembicara pada acara atau pamateri pada acara serta suka menjalin komunikasi dengan banyak orang</p>
+                    <p>Passion pada dunia retail yang sudah 7 tahun saya geluti, karena saya suka mengelola big data yang ada pada retail dan memberikan insight didalamnya</p>
+                </div>
+            </section>
+            <section id="content-6" class="content">
+                <div class="card">
+                    <h1>Award</h1>
+                    <p>Lulusan terbaik program blended learning fakultas Humaniora dan Bisnis</p>
+                    <p>Best trainer 2019, mendapatkan reward Samsung Galaxy S20 dan trip to Korea Selatan</p>
+                    <p>Best traiber 2020, sebagai pengharagaan atas pencapain mempertahankan dan membuat peluang sellot pada masa pandemi covid-19</p>
+                    <p>Best trainer nation 2020, sebagai pengharagaan atas pencapaian selama periode 2019 dan 2020 yang melampaui 110% penjualan pada segmenent premium product</p>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <span>&copy; 2023 All Rights Reserved. Rina Sismita.</span>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+
+        let typed = new Typed('#typed-element', {
+            strings: [
+                'pembuatan aplikasi berbasis web',
+                'pengerjaan desain grafis',
+                'jasa MC untuk acara penting anda',
+                'Pemateri program development SDM perusahaan',
+                'Pemateri program leading with care by vannay',
+                'EO acara pesta dan kantor'
+            ],
+            typeSpeed: 50,
+            backSpeed: 10,
+            loop: true
+        });
+
+        contactMe = () => {
+            Swal.fire({
+                icon: 'success',
+                title: 'Berhasil!',
+                text: 'Terima kasih telah menghubungi saya. Nanti akan saya balas via e-mail ya..',
+            });
+        }
+
+    </script>
+
+</body>
+</html>
